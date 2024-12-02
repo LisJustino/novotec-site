@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../loginCadastro.css">
+</head>
+<body>
+    <div class="login-comeco">
+        <h2>LOGIN</h2>
+        <form id="loginForm">
+            <div class="grupo-input">
+                <label for="usuario">Usuário: </label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div> 
+            <div class="grupo-input">
+                <label for="password">Senha: </label>
+                <input type="password" id="password" name="password" required>
+            </div>           
+            <button type="submit">Entrar</button>
+            <div id="errorMessage"></div>
+        </form>
+    </div>
+    <script src="telaDeLogin.js"></script>
+</body>
+</html>
